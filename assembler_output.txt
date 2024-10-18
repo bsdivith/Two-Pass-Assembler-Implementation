@@ -1,0 +1,96 @@
+Random Assembly Code:
+1. ADD A, 41
+2. ADD A, 55
+3. HALT A, 39
+4. MOV A, 74
+5. MOV A, 78
+
+Symbol Table:
+- ADD: 1
+- HALT: 2
+- MOV: 4
+
+Object Code:
+1. 0041
+2. 0055
+3. 0039
+4. 0074
+5. 0078
+--------------------------------------------
+Random Assembly Code:
+1. ADD A, 30
+2. MOV A, 41
+3. ADD A, 20
+4. MOV A, 27
+5. HALT A, 71
+
+Symbol Table:
+- ADD: 2
+- MOV: 3
+- HALT: 4
+
+Object Code:
+1. 0030
+2. 0041
+3. 0020
+4. 0027
+5. 0071
+--------------------------------------------
+Random Assembly Code:
+1. SUB A, 81
+2. SUB A, 71
+3. MOV A, 82
+4. HALT A, 80
+5. ADD A, 94
+
+Symbol Table:
+- SUB: 1
+- MOV: 2
+- HALT: 3
+- ADD: 4
+
+Object Code:
+1. 0081
+2. 0071
+3. 0082
+4. 0080
+5. 0094
+--------------------------------------------
+Random Assembly Code:
+1. SUB A, 24
+2. SUB A, 76
+3. HALT A, 77
+4. SUB A, 73
+5. HALT A, 72
+
+Symbol Table:
+- SUB: 3
+- HALT: 4
+
+Object Code:
+1. 0024
+2. 0076
+3. 0077
+4. 0073
+5. 0072
+--------------------------------------------
+Random Assembly Code:
+1. SUB A, 51
+2. HALT A, 22
+3. ADD A, 31
+4. MOV A, 73
+5. ADD A, 64
+
+Symbol Table:
+- SUB: 0
+- HALT: 1
+- ADD: 4
+- MOV: 3
+
+Object Code:
+1. 0051
+2. 0022
+3. 0031
+4. 0073
+5. 0064
+--------------------------------------------
